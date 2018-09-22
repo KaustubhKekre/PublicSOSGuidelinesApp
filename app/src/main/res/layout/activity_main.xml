@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#A3D2F7"
+    >
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.75"
+        android:text="Report"
+        android:textSize="50dp"
+        android:background="@drawable/report"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_margin="8dp"
+        android:textColor="#EC0A26"
+        android:id="@+id/report"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.75"
+        android:text="Search"
+        android:gravity="center"
+        android:textSize="50dp"
+        android:layout_margin="8dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:background="@drawable/search"
+        android:id="@+id/search"
+        android:textColor="#EC0A26" />
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="Please select the emergency situation"
+
+        android:layout_margin="6dp"/>
+
+
+    <RadioGroup
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RadioButton android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="Fire"
+        android:layout_margin="6dp"
+        android:id="@+id/fire"/>
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="match_parent" android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" android:text="Flood"  android:layout_margin="6dp" android:id="@+id/flood"/>
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="match_parent" android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" android:text="Accident"  android:layout_margin="6dp" android:id="@+id/accident"/>
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="match_parent" android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" android:text="Traffic Congestion"  android:layout_margin="6dp" android:id="@+id/traffic"/>
+
+    <RadioButton android:layout_height="wrap_content" android:layout_width="match_parent" android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" android:text="Tsunami"  android:layout_margin="6dp" android:id="@+id/tsunami"/>
+
+
+        <RadioButton android:layout_height="wrap_content" android:layout_width="match_parent" android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" android:text="Public Violence"  android:layout_margin="6dp" android:id="@+id/violence"/>
+
+        <RadioButton android:layout_height="wrap_content" android:layout_width="match_parent" android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" android:text="Earthquake"  android:layout_margin="6dp" android:id="@+id/earthquake"/>
+
+        <RadioButton android:layout_height="wrap_content" android:layout_width="match_parent" android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" android:text="Terrorist attack" android:layout_margin="6dp" android:id="@+id/terror"/>
+
+</RadioGroup>
+
+    <Button android:layout_height="wrap_content" android:textAppearance="@style/TextAppearance.AppCompat.Large" android:textStyle="bold" android:layout_width="match_parent" android:text="REPORT" android:id="@+id/sub" android:layout_margin="8dp" android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
