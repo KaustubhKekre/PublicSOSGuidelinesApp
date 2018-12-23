@@ -1,1 +1,3 @@
-using firebase phone authentication ,google maps api
+TSEC Hackathon
+
+using firebase phone authentication (sms verification) ,google maps api
