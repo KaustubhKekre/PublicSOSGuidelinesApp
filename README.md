@@ -3,4 +3,3 @@ It also  gives detailed information about the do's and don'ts in case of a disas
 Firebase used for user authentication(SMS OTP).
 Using-RecyclerView, Google services
 
-**Developers** - Arnesh Vaidya, Hrishikesh Shenai, Kaustubh Kekre, Pranjal Chitale
